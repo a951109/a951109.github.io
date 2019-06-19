@@ -5,11 +5,21 @@ table {
   }
   
   td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #bfb97c;
     text-align: left;
     padding: 8px;
   }
   
-  tr:nth-child(even) {
-    background-color: #dddddd;
+  td:nth-child(odd) {
+    width: 10%;
+    background-color: #b5b07d;
+  }
+
+  td:nth-child(odd) {
+    color: white;
+    text-align:center;
+  }
+
+  td:nth-child(even) {
+    color: #444444;
   }
