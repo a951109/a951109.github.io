@@ -1,0 +1,19 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+.flex-container > div {
+    padding: 20px 8px;
+}
+
+img {
+    width: 640px;
+    height: 360px;
+}
+
+.description {
+    margin: 5px;
+    text-align: center;
+}
