@@ -2,6 +2,10 @@ h2 {
   font-size:24px;
 }
 
+.artistName {
+  text-align: left;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
